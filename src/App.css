@@ -1,0 +1,96 @@
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8; /* Svetlo siva barva ozadja */
+}
+
+.weather-app {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px; /* Povečanje širine za boljšo postavitev */
+  margin: 20px auto; /* Centriranje in dodajanje robov */
+  padding: 20px;
+  background-color: #ffffff; /* Belo ozadje za aplikacijo */
+  border-radius: 8px; /* Zaobljeni robovi */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Rahla senca */
+}
+
+.search-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 20px;
+}
+
+.search-container {
+  flex: 3; /* Pusti več prostora za iskalno polje in prikaz vremena */
+  padding: 20px;
+  border-right: 1px solid #ddd; /* Črta loči iskalno polje od zgodovine */
+}
+
+.history-container {
+  flex: 1; /* Manj prostora za zgodovino */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.clear-history {
+  margin-bottom: 10px;
+  background-color: #dc3545; /* Rdeča barva za izbris */
+}
+
+.clear-history:hover {
+  background-color: #c82333;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.weather-info {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-icon {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}

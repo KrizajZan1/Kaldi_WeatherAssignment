@@ -24,3 +24,5 @@ Install dependencies:
 
 Run project:
  - npm run dev
+
+> I know API keys are private information but I included mine in .env file so it is easier for you to run the program.

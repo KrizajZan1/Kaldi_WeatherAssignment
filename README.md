@@ -18,6 +18,7 @@ Clone the repository:
 
 Navigate to project directory:
  - cd weather-app
+ 
 Install dependencies:
  - npm install
 

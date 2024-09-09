@@ -15,6 +15,7 @@ Weather App is a React application that allows users to search for weather data 
 # Installation
 Clone the repository:
  - git clone https://github.com/KrizajZan1/Kaldi_WeatherAssignment
+ 
 Navigate to project directory:
  - cd weather-app
 Install dependencies

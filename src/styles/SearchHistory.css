@@ -1,0 +1,23 @@
+.search-history {
+    margin: 20px;
+  }
+  
+  .search-history button {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-history ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .search-history li {
+    cursor: pointer;
+    margin: 5px 0;
+  }

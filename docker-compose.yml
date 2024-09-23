@@ -1,0 +1,7 @@
+services:
+  weather_krizajzan_com:
+    build: .
+    container_name: weather_krizajzan_com
+    restart: unless-stopped
+    ports:
+      - 2169:2169

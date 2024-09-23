@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import SearchBar from "./components/SearchBar";
 import DisplayData from "./components/DisplayData";
 import SearchHistory from "./components/SearchHistory";
-import { getWeatherData } from "./Services/GetData";
+import { getWeatherData } from "./services/GetData";
 import './styles/App.css'; 
 
 const App = () => {
